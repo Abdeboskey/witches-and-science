@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import seed from './assets/seed.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={seed} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+	  <code>A creative coven in Denver, CO</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.witchesandscience.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Witches & Science 
         </a>
       </header>
     </div>
